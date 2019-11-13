@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"sc-color { background-color: #fce1d5; color: #ee7726; border-color: #fb7414; }\n",],undefined,{path:"./pages/search-page/search-page.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/search-page/search-page.wxml') } }));

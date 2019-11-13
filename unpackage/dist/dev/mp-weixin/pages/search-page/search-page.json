@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "select-top": "/components/select-top",
+    "search-goods": "/components/search/search-goods",
+    "uni-drawer": "/components/uni-drawer"
+  }
+}

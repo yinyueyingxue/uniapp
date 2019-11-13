@@ -1,0 +1,17 @@
+{
+  "titleNView": {
+    "titleText": "购物车",
+    "buttons": [
+      {
+        "color": "#000000",
+        "colorPressed": "#f46d01",
+        "float": "right",
+        "text": "编辑",
+        "fontSize": "25rpx"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-number-box": "/components/num-box/number-box"
+  }
+}

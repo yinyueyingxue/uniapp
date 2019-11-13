@@ -1,0 +1,177 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"searchInput": {
+							"align": "left",
+							"backgroundColor": "#f7f7f7",
+							"borderRadius": "6px",
+							"placeholder": "请输入搜索内容",
+							"placeholderColor": "#cccccc",
+							"disabled": "true"
+						},
+						"buttons": [{
+							"color": "#868686",
+							"colorPressed": "#f46d01",
+							"float": "left",
+							"text": "\ue67a",
+							"fontSize": "20px",
+							"fontSrc": "/static/font/iconfont.ttf"
+						}, {
+							"color": "#868686",
+							"colorPressed": "#f46d01",
+							"float": "right",
+							"text": "\ue661",
+							"fontSize": "20px",
+							"fontSrc": "/static/font/iconfont.ttf"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"titleText": "购物车",
+						"buttons":[{
+							"color": "#000000",
+							"colorPressed": "#f46d01",
+							"float": "right",
+							"text": "编辑",
+							"fontSize":"25rpx"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"searchInput": {
+							"align": "left",
+							"backgroundColor": "#f7f7f7",
+							"borderRadius": "6px",
+							"placeholder": "请输入搜索内容",
+							"placeholderColor": "#cccccc"
+						},
+						"buttons": [{
+							"color": "#212121",
+							"colorPressed": "#f46d01",
+							"float": "right",
+							"text": "搜索",
+							"fontSize": "16px"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/search-page/search-page",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"searchInput": {
+							"align": "left",
+							"backgroundColor": "#f7f7f7",
+							"borderRadius": "6px",
+							"placeholder": "请输入搜索内容",
+							"placeholderColor": "#cccccc"
+						},
+						"buttons": [{
+							"color": "#212121",
+							"colorPressed": "#f46d01",
+							"float": "right",
+							"text": "搜索",
+							"fontSize": "16px"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/category/category",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"searchInput": {
+							"disabled": true,
+							"backgroundColor": "#f7f7f7",
+							"align": "left",
+							"placeholder": "请输入搜索",
+							"placeholderColor": "#cccccc",
+							"borderRadius": "7px"
+						},
+						"buttons": [{
+							"fontSize": "46rpx",
+							"text": "\ue67a",
+							"color": "#999999",
+							"colorPressed": "#f46d01",
+							"fontSrc": "/static/font/iconfont.ttf"
+						}]
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/detail/detail",
+            "style" : {
+				"app-plus":{
+					"titleNView":{
+						"type":"transparent",
+						"titleText":"详情页",
+						"buttons":[{
+							"fontSize": "46rpx",
+							"float":"right",
+							"color": "#999999",
+							"colorPressed": "#f46d01",
+							"fontSrc":"/static/font/point/iconfont.ttf",
+							"text": "\ue61f"
+						}]
+					}
+				}
+			}
+        }
+    ],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#F36E00",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/static/tabbar/index.png",
+			"selectedIconPath": "static/static/tabbar/indexSelected.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/category/category",
+			"iconPath": "static/static/tabbar/class.png",
+			"selectedIconPath": "static/static/tabbar/classSelected.png",
+			"text": "分类"
+		}, {
+			"pagePath": "pages/cart/cart",
+			"iconPath": "static/static/tabbar/cart.png",
+			"selectedIconPath": "static/static/tabbar/cartSelected.png",
+			"text": "购物车"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/static/tabbar/my.png",
+			"selectedIconPath": "static/static/tabbar/mySelected.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}

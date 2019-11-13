@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "tri-up": "/components/css-icon/tri-up",
+    "tri-down": "/components/css-icon/tri-down"
+  },
+  "component": true
+}

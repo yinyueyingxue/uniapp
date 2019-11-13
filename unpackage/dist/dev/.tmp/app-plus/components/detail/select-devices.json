@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "right-arrow": "/components/right-arrow",
+    "bottom-sheet": "/components/detail/bottomSheet"
+  },
+  "component": true
+}

@@ -1,0 +1,1 @@
+<view><text style="font-size:31rpx;margin-left:20rpx;line-height:75rpx;font-weight:800;">{{resdata.text}}</text><view style="height:300rpx;margin-bottom:1rpx;"><image style="height:300rpx;" lazy-load="true" src="{{resdata.src}}" mode></image></view></view>

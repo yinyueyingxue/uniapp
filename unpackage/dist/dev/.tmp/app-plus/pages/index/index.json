@@ -1,0 +1,39 @@
+{
+  "titleNView": {
+    "searchInput": {
+      "align": "left",
+      "backgroundColor": "#f7f7f7",
+      "borderRadius": "6px",
+      "placeholder": "请输入搜索内容",
+      "placeholderColor": "#cccccc",
+      "disabled": "true"
+    },
+    "buttons": [
+      {
+        "color": "#868686",
+        "colorPressed": "#f46d01",
+        "float": "left",
+        "text": "",
+        "fontSize": "20px",
+        "fontSrc": "/static/font/iconfont.ttf"
+      },
+      {
+        "color": "#868686",
+        "colorPressed": "#f46d01",
+        "float": "right",
+        "text": "",
+        "fontSize": "20px",
+        "fontSrc": "/static/font/iconfont.ttf"
+      }
+    ]
+  },
+  "usingComponents": {
+    "tabbar": "/components/tabbar",
+    "swiper-image": "/components/swiper-image",
+    "index-nav": "/components/index-nav",
+    "line": "/components/line",
+    "card": "/components/card",
+    "news": "/components/news",
+    "goods": "/components/goods"
+  }
+}

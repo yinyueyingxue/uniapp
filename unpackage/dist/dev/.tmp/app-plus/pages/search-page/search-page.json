@@ -1,0 +1,26 @@
+{
+  "bounce": "none",
+  "titleNView": {
+    "searchInput": {
+      "align": "left",
+      "backgroundColor": "#f7f7f7",
+      "borderRadius": "6px",
+      "placeholder": "请输入搜索内容",
+      "placeholderColor": "#cccccc"
+    },
+    "buttons": [
+      {
+        "color": "#212121",
+        "colorPressed": "#f46d01",
+        "float": "right",
+        "text": "搜索",
+        "fontSize": "16px"
+      }
+    ]
+  },
+  "usingComponents": {
+    "select-top": "/components/select-top",
+    "search-goods": "/components/search/search-goods",
+    "uni-drawer": "/components/uni-drawer"
+  }
+}

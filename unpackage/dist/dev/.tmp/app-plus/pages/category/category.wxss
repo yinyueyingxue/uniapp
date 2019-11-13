@@ -1,0 +1,10 @@
+
+page {
+	height: 100%;
+}
+.checkL {
+	/* background-color: greenyellow; */
+	color: #FF6c01;
+	border-left: 7rpx solid #fc6d07;
+}
+

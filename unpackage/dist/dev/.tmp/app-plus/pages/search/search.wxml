@@ -1,0 +1,1 @@
+<view><news vue-id="1" resdata="{{news}}" bind:__l="__l"></news><hot-button vue-id="2" resdata="{{hotbuttons}}" bind:__l="__l"></hot-button><text-button vue-id="3" resdata="{{textbuttons}}" bind:__l="__l"></text-button><line vue-id="4" bind:__l="__l"></line><search-history vue-id="5" resdata="{{searchhistorys}}" bind:__l="__l"></search-history></view>

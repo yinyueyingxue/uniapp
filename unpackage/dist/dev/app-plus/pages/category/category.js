@@ -1,0 +1,2 @@
+setCssToHead(["body { height: 100%; }\n.",[1],"checkL { color: #FF6c01; border-left: ",[0,7]," solid #fc6d07; }\n",],undefined,{path:"./pages/category/category.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/category/category.wxml') } }));

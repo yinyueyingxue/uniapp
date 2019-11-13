@@ -1,0 +1,28 @@
+{
+  "bounce": "none",
+  "titleNView": {
+    "searchInput": {
+      "align": "left",
+      "backgroundColor": "#f7f7f7",
+      "borderRadius": "6px",
+      "placeholder": "请输入搜索内容",
+      "placeholderColor": "#cccccc"
+    },
+    "buttons": [
+      {
+        "color": "#212121",
+        "colorPressed": "#f46d01",
+        "float": "right",
+        "text": "搜索",
+        "fontSize": "16px"
+      }
+    ]
+  },
+  "usingComponents": {
+    "line": "/components/line",
+    "search-history": "/components/search-history",
+    "text-button": "/components/text-button",
+    "hot-button": "/components/hot-button",
+    "news": "/components/news"
+  }
+}

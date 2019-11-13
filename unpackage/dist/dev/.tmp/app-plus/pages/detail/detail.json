@@ -1,0 +1,24 @@
+{
+  "titleNView": {
+    "type": "transparent",
+    "titleText": "详情页",
+    "buttons": [
+      {
+        "fontSize": "46rpx",
+        "float": "right",
+        "color": "#999999",
+        "colorPressed": "#f46d01",
+        "fontSrc": "/static/font/point/iconfont.ttf",
+        "text": ""
+      }
+    ]
+  },
+  "usingComponents": {
+    "right-arrow": "/components/right-arrow",
+    "detail-commons": "/components/detail/detail-commons",
+    "select-devices": "/components/detail/select-devices",
+    "swiper-image": "/components/swiper-image",
+    "goods": "/components/goods",
+    "hardware": "/components/detail/hardware"
+  }
+}

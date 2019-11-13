@@ -1,0 +1,23 @@
+{
+  "bounce": "none",
+  "titleNView": {
+    "searchInput": {
+      "disabled": true,
+      "backgroundColor": "#f7f7f7",
+      "align": "left",
+      "placeholder": "请输入搜索",
+      "placeholderColor": "#cccccc",
+      "borderRadius": "7px"
+    },
+    "buttons": [
+      {
+        "fontSize": "46rpx",
+        "text": "",
+        "color": "#999999",
+        "colorPressed": "#f46d01",
+        "fontSrc": "/static/font/iconfont.ttf"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,17 @@
+<template>
+		<view style="width: 0;height: 0;border: #000000 10rpx solid;border-color: #B2B2B2 transparent transparent transparent;"></view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			};
+		}
+	}
+</script>
+
+<style>
+
+</style>

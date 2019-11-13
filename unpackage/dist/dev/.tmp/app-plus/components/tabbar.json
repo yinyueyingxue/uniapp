@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "swiper-image": "/components/swiper-image",
+    "index-nav": "/components/index-nav"
+  },
+  "component": true
+}

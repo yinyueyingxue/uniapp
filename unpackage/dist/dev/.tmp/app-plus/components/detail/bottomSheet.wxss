@@ -1,0 +1,70 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sheet弹窗 */
+.sheet{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 120%;
+	left: 0rpx;
+	bottom: 0rpx;
+	right: 0rpx;
+	background:rgba(0,0,0,0.3);
+	z-index: 10000;
+}
+/* 显示时候的动画默认0.5s */
+.sheetView{
+	width: 100%;
+	height: 0rpx;
+	position: absolute;
+	bottom: 0rpx;
+	background: white;
+	z-index: 10001;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.sheetShow{
+	top:0rpx !important;
+}
+/* 关闭时的动画，时间自己可以设置0.5s*/
+.sheeHide{
+	top:120% !important;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+/* 项目需求根据设计稿要展示的高度,超出这个高度就自动滚动*/
+.sheetView_active{
+	height: 942rpx;
+}
+
+

@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "tabbar": "/components/tabbar",
+    "swiper-image": "/components/swiper-image",
+    "index-nav": "/components/index-nav",
+    "line": "/components/line",
+    "card": "/components/card",
+    "news": "/components/news",
+    "goods": "/components/goods"
+  }
+}
